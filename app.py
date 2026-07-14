@@ -57,25 +57,29 @@ st.markdown(
     section[data-testid="stSidebar"] * { color: var(--text) !important; }
 
     /* Buttons */
-    .stButton > button{
-        background-color: var(--accent);
-        color:#0a0b0e;
-        border:none;
-        border-radius:10px;
-        padding:0.5em 1.3em;
-        font-weight:600;
-        transition:0.15s ease;
-    }
-    .stButton > button:hover{ background-color:#7ba3ff; color:#0a0b0e; }
+.stButton > button{
+    background-color: #5B8CFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5em 1.3em;
+    font-weight: 600;
+    transition: 0.15s ease;
+}
 
-    /* Text inputs / text areas */
-    .stTextInput input, .stTextArea textarea{
-        background-color: var(--bg-card) !important;
-        color: var(--text) !important;
-        border:1px solid var(--border) !important;
-        border-radius:10px !important;
-    }
+.stButton > button:hover{
+    background-color: #7AA2FF;
+    color: #ffffff;
+}
 
+/* Text inputs / text areas */
+.stTextInput input,
+.stTextArea textarea{
+    background-color: #1E2430 !important;
+    color: #F5F7FA !important;
+    border: 1px solid #3A4456 !important;
+    border-radius: 10px !important;
+}
     /* File uploader */
     [data-testid="stFileUploaderDropzone"]{
         background-color: var(--bg-card);

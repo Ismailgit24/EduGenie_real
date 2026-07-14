@@ -1,0 +1,8 @@
+streamlit
+python-dotenv
+huggingface_hub
+pdfplumber
+docx2txt
+pillow
+nltk
+pandas
